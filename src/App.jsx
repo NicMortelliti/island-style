@@ -1,5 +1,5 @@
-function App() {
+export const App = () => {
   return null;
-}
+};
 
 export default App;
