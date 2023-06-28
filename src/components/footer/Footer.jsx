@@ -1,5 +1,11 @@
-import React from 'react';
+import { Center } from '@chakra-ui/react';
+import { DesignBy, Legal } from './index';
 
 export const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <Center>
+      <Legal />
+      <DesignBy />
+    </Center>
+  );
 };

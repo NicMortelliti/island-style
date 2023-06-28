@@ -1,5 +1,9 @@
-import React from 'react';
+import { Center, Heading } from '@chakra-ui/react';
 
 export const Header = () => {
-  return <div>Header</div>;
+  return (
+    <Center>
+      <Heading>Island Style Grill</Heading>
+    </Center>
+  );
 };
