@@ -1,11 +1,10 @@
-import { Center } from '@chakra-ui/react';
-import { Bio, Hours } from './index';
+import { Bio, Hours } from './';
 
 export const Main = () => {
   return (
-    <Center>
+    <>
       <Bio />
       <Hours />
-    </Center>
+    </>
   );
 };

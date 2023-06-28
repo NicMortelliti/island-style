@@ -1,11 +1,11 @@
 import { defineStyleConfig } from '@chakra-ui/react';
 
 export const textStyle = defineStyleConfig({
-  baseStyle: {},
-  variant: {
-    footer: { fontSize: 'xs' },
+  variants: {
+    body: { fontSize: 'md' },
+    footer: { fontSize: 'xs', fontWeight: 'lighter' },
   },
   defaultProps: {
-    variant: 'footer',
+    variant: 'body',
   },
 });

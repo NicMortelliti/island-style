@@ -1,5 +1,9 @@
-import { Text } from '@chakra-ui/react';
+import { Center, Text } from '@chakra-ui/react';
 
 export const Legal = () => {
-  return <Text variant="footer">Island Style Grill LLC</Text>;
+  return (
+    <Center>
+      <Text variant='footer'>Island Style Grill LLC</Text>
+    </Center>
+  );
 };
