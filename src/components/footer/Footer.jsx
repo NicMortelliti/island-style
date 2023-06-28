@@ -3,9 +3,13 @@ import { DesignBy, Legal } from './index';
 
 export const Footer = () => {
   return (
-    <Center>
-      <Legal />
-      <DesignBy />
-    </Center>
+    <>
+      <Center>
+        <Legal />
+      </Center>
+      <Center>
+        <DesignBy />
+      </Center>
+    </>
   );
 };

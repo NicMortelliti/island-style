@@ -1,6 +1,6 @@
 import { defineStyleConfig } from '@chakra-ui/react';
 
-export const centerTheme = defineStyleConfig({
+export const centerStyle = defineStyleConfig({
   baseStyle: {},
   variant: {
     center: {

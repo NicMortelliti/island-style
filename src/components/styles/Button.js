@@ -1,6 +1,6 @@
 import { defineStyleConfig } from '@chakra-ui/react';
 
-export const buttonTheme = defineStyleConfig({
+export const buttonStyle = defineStyleConfig({
   baseStyle: {},
   variants: {
     solid: {

@@ -7,7 +7,7 @@ export const App = () => {
       templateAreas={`"header"
                   "main"
                   "footer"`}
-      gridTemplateRows={'50px 1fr 30px'}
+      gridTemplateRows={'50px 1fr 40px'}
       gridTemplateColumns={'1fr'}
       minH='100vh'>
       <GridItem area={'header'}>
