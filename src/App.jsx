@@ -9,16 +9,14 @@ export const App = () => {
                   "footer"`}
       gridTemplateRows={'50px 1fr 30px'}
       gridTemplateColumns={'1fr'}
-      minH='100vh'
-      color='blackAlpha.700'
-      fontWeight='bold'>
-      <GridItem pl='2' bg='orange.300' area={'header'}>
+      minH='100vh'>
+      <GridItem area={'header'}>
         <Header />
       </GridItem>
-      <GridItem pl='2' bg='green.300' area={'main'}>
+      <GridItem area={'main'}>
         <Main />
       </GridItem>
-      <GridItem pl='2' bg='blue.300' area={'footer'}>
+      <GridItem area={'footer'}>
         <Footer />
       </GridItem>
     </Grid>
